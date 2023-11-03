@@ -468,17 +468,17 @@ img {
     display: flex;
     justify-content: space-between;
     margin-top: var(--mb-1);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .price p {
     position: relative;
-    right: 1rem;
+    right: .5rem;
     
 }
 .menu__button {
     position: relative;
-    left: 1rem;
+    left: .5rem;
     display: grid;
     align-self: center;
     border-radius: .3rem;
