@@ -473,12 +473,12 @@ img {
 
 .price p {
     position: relative;
-    right: 5rem;
+    right: 2rem;
     
 }
 .menu__button {
     position: relative;
-    left: 5rem;
+    left: 2rem;
     display: grid;
     align-self: center;
     border-radius: .3rem;
@@ -801,6 +801,23 @@ textarea {
         justify-content: space-around;
         margin-bottom: var(--mb-6);
     }
+
+    
+.price p {
+    position: relative;
+    right: 5rem;
+    
+}
+.menu__button {
+    position: relative;
+    left: 5rem;
+    display: grid;
+    align-self: center;
+    border-radius: .3rem;
+    padding: .2rem .3rem;
+    color: var(--body--color);
+    background-color: var(--primary-color);
+}
 
     .faqs__container {
         height: 100vh;
