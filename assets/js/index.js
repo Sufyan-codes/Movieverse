@@ -40,3 +40,20 @@ function scrollTop(){
     if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollTop)
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal(`.home__data, .home__img,
+            .about__data, .about__img,
+            .product__text, .products__card,
+            .faqs__text, .left, .right,
+            .contact_text, .form,
+            .footer__container, .steps__card`, {
+    interval: 200
+})
