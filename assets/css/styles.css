@@ -473,12 +473,12 @@ img {
 
 .price p {
     position: relative;
-    right: 2rem;
+    right: 1rem;
     
 }
 .menu__button {
     position: relative;
-    left: 2rem;
+    left: 1rem;
     display: grid;
     align-self: center;
     border-radius: .3rem;
